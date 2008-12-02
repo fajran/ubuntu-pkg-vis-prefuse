@@ -238,7 +238,7 @@ public class Main01 extends JPanel {
 	private static Graph loadGraph(String[] args) {
 		Graph graph = null;
 		try {
-			String BASE = "/Users/iang/kuliah2/tesis/test/ubuntu/data/orig/";
+			String BASE = "../../ubuntu/data/mid/";
 			if (args.length > 0) {
 				BASE = args[0];
 			}
